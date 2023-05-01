@@ -1,0 +1,92 @@
+[
+    {
+        "name": "zunes",
+        "link": "/zunes",
+        "submenu": [
+            {
+                "name": "Zune 30 (Z1H-30)",
+                "link": "/zunes#Z1H-30"
+            },
+            {
+                "name": "Zune 2 Flash (Z2F)",
+                "link": "/zunes#Z2F"
+            },
+            {
+                "name": "Zune 2 HDD (Z2H)",
+                "link": "/zunes#Z2H"
+            },
+            {
+                "name": "Zune HD (Z3F)",
+                "link": "/zunes#Z3F"
+            }
+        ]
+    },
+    {
+        "name": "software",
+        "link": "/software",
+        "submenu": [
+            {
+                "name": "zune software",
+                "link": "/software"
+            },
+            {
+                "name": "Zune Modding Helper",
+                "link": "/software/moddinghelper"
+            }
+        ]
+    },
+    {
+        "name": "guides",
+        "link": "http://zunes.me/guides",
+        "submenu": [
+            {
+                "name": "Get started",
+                "link": "/guides/get-started"
+            },
+            {
+                "name": "Updating Zune's Firmware",
+                "link": "/guides/updating-zunes-firmware"
+            },
+            {
+                "name": "Restoring (some) software functionality ",
+                "link": "/guides/updating-zunes-firmware"
+            }
+        ]
+    },
+    {
+        "name": "blog",
+        "link": "http://blog.zunes.me/"
+    },
+    {
+        "name": "useful links",
+        "link": "/useful-sites",
+        "submenu": [
+            {
+                "name": "Zunerama",
+                "link": "https://zunerama.com/"
+            },
+            {
+                "name": "Discord Server",
+                "link": "https://discord.zunes.me/"
+            },
+            {
+                "name": "ZuneUpdate.com",
+                "link": "http://ZuneUpdate.com/?source=zunes.me"
+            },
+            {
+                "name": "Hello From Seattle",
+                "link": "http://hellofromseattle.com/?source=zunes.me"
+            },
+            {
+                "name": "Zune Boards",
+                "link": "http://zuneboards.com/?source=zunes.me"
+            }
+        ]
+    },
+    {
+        "key": 5,
+        "name": "Archive",
+        "link": "https://1drv.ms/f/s!AmxHvJnifOoIny_xmVgfDmPLRPV6",
+        "submenu": []
+    }
+]

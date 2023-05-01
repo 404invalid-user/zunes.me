@@ -1,0 +1,56 @@
+
+  .zune {
+    display: flex;
+    flex-direction: column;
+    margin-top: 34px;
+  }
+  
+  .zuneHeadder {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 9px 0;
+  }
+  
+  .zuneQuickInfo {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .zuneQuickInfo img {
+    width: 170px;
+  }
+  
+  .zuneQuickInfo .textwrap {
+      margin-left: 9px;
+    }
+  
+  .zuneQuickInfo p {
+    font-size: 15px;
+  }
+  
+  h2.zuneTitle {
+    margin-top: 20px;
+    margin-bottom: 16px;
+  }
+  
+  a.link {
+    display: block;
+    font-size: 14px;
+  }
+  
+  @media screen and (max-width: 600px) {
+   
+    
+    h2.zuneTitle {
+      text-align: center;
+      margin: 20px auto;
+    }
+    .zuneQuickInfo {
+      flex-direction: column;
+      align-items: center;
+    }
+   .zuneQuickInfo .textwrap {
+      margin-left: 0;
+    }
+  }
+  

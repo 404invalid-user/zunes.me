@@ -1,0 +1,168 @@
+.nav {
+  width: 970px;
+  max-width: 100%;
+  font-weight: normal;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+.naving {
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  max-width: 100%;
+  height: 75px;
+}
+.logo {
+  margin-left: 10px;
+}
+
+.zunetag {
+  font-size: 11px;
+  font-weight: bold;
+  color: #333;
+}
+.navwrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: calc(100% - 20px);
+  max-width: calc(100% - 20px);
+  min-width: calc(100% - 20px);
+  margin-right: 15px;
+}
+
+.topwrap a {
+  font-size: 11px;
+  color: #777;
+}
+
+.topwrap {
+  width: calc(100% - 20px);
+  max-width: calc(100% - 20px);
+  min-width: calc(100% - 20px);
+  margin-right: 15px;
+}
+
+.top {
+  margin-left: auto;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.buttons a,
+.buttons span {
+  margin-right: 10px;
+}
+
+.navwrap > a,
+.navwrap > div {
+  display: inline-block;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.menu {
+  position: absolute;
+  top: 36px;
+  /* width: 500px; */
+  left: 15%;
+  max-width: fit-content;
+}
+
+.menuItem {
+  display: inline-block;
+  position: relative;
+}
+.menuItemName {
+  font-size: 18px;
+  color: #888;
+  line-height: 20px;
+  margin: 0;
+  white-space: nowrap;
+  padding: 4px 7px 16px 7px;
+  text-transform: lowercase;
+}
+
+.selected,
+.menuItemName:hover {
+  color: #333 !important;
+}
+
+.topwrap a,
+.topwrap span {
+  color: #777;
+}
+a.zunetag {
+  font-weight: bold;
+  color: #333 !important;
+}
+
+.subMenu {
+  white-space: nowrap;
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 39px;
+  padding: 0 20px 10px 20px;
+  border: 1px solid #eee;
+  border-top: 0;
+  background: #fff;
+  line-height: 25px;
+  color: #777;
+  list-style-type: none;
+  margin: 0;
+}
+.subMenu div {
+  border-top: 1px solid #eee;
+  padding-top: 18px;
+}
+.subMenu div li {
+  line-height: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.subMenu div li a {
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #888;
+  text-decoration: none;
+  padding: 0;
+}
+.subMenu div li a:hover {
+  color: #000;
+}
+.search {
+  margin-left: auto;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  font-size: 11px;
+}
+
+.search input {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  color: #888;
+  float: right;
+  vertical-align: middle;
+  width: 240px;
+  border: 0px;
+  font-size: 11px;
+  padding: 5px 0 5px 10px;
+  text-align: left;
+}

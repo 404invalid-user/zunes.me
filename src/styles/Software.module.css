@@ -1,0 +1,25 @@
+.button {
+    display: inline-block;
+    color: #fff;
+    background: var(--colour-pink);
+    border-radius: 5px;
+    padding: 4px 6px;
+    border: 1px solid #777;
+    font-size: 12;
+    margin-bottom: 12px;
+  }
+  .button:hover {
+    color: #ccc;
+  }
+  .text {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.6em;
+    line-height: 1.3em;
+  }
+  .header {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 1px 0;
+  }
+  

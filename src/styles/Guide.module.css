@@ -1,0 +1,180 @@
+.mainContentWrap {
+  max-width: 100%;
+  width: 950px;
+  margin: 0 auto;
+}
+.text {
+  font-size: 14px;
+}
+.herowrap {
+  background: rgb(22, 22, 22);
+  width: 100%;
+  padding: auto 0;
+  display: flex;
+  justify-content: center;
+}
+.hero {
+  display: flex;
+  width: 970px;
+  height: 420px;
+  max-width: calc(100% - 40px);
+  background: rgb(22, 22, 22);
+  top: 0;
+  padding: 63px 20px 62px 20px;
+}
+
+.smallHero {
+  height: 230px;
+}
+
+.smallHero .hero {
+  height: 149px;
+}
+
+.hero .infowrap {
+  position: relative;
+  width: calc(100% - 40%);
+}
+
+.title {
+  font-weight: 400;
+  font-family: Zegoe Light;
+  font-size: 48;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+}
+
+.hero img {
+  width: 80%;
+  position: absolute;
+  top: 15%;
+  left: 19%;
+}
+
+.hero iframe {
+  width: 80%;
+  height: 75%;
+  margin-top: 20px;
+}
+.indexlist a {
+  margin: 3px 0;
+  font-size: 10px;
+  color: #fff;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.hero .textwrap {
+  width: 40%;
+  padding: 73px 0;
+}
+.hero .textwrap h2 {
+  text-align: left;
+  font-size: 35px;
+  letter-spacing: -1.6px;
+  line-height: 37px;
+}
+
+.description {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+.zune {
+  display: flex;
+  flex-direction: column;
+  margin-top: 34px;
+}
+
+.sloganText {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 9px 0;
+}
+
+.quickinfo {
+  display: flex;
+  flex-direction: row;
+}
+
+.quickinfo img {
+  width: 170px;
+}
+
+.quickinfo .textwrap {
+  margin-left: 9px;
+}
+
+.quickinfo p {
+  font-size: 15px;
+}
+
+h2.zunetitle {
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+a.link {
+  display: block;
+  font-size: 14px;
+}
+
+.code {
+  background: lightgray;
+  border-radius: 3px;
+  padding:1px;
+  display: inline-block;
+  width: fit-content;
+}
+.codeBlock {
+  background: lightgray;
+  border-radius: 3px;
+  display: block;
+  width: fit-content;
+  padding: 10px 5px;
+  padding: 5px 10px;
+}
+@media screen and (max-width: 600px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero > div {
+    width: 100%;
+  }
+
+  .hero.g .infowrap,
+  .hero.g .textwrap {
+    width: 100%;
+  }
+  .indexlist {
+    display: none;
+  }
+  .title {
+    font-size: 71px;
+  }
+  h2.zunetitle {
+    text-align: center;
+    margin: 20px auto;
+  }
+  .zune .quickinfo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .zune .quickinfo .textwrap {
+    margin-left: 0;
+  }
+  .hero img {
+    opacity: 0.3;
+    left: 0;
+  }
+
+  .shortSlogan {
+    font-size: 43px;
+    margin-bottom: 9px;
+  }
+  .text {
+    font-size: 16px;
+  }
+}

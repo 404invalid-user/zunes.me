@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Zegoe UI";
+  src: url("/fonts/ZegoeUI-U.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Zegoe Light";
+  src: url("/fonts/ZegoeLight-U.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Zegoe UI SemiBold";
+  src: url("/fonts/ZegoeUISemiBold-U.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Zegoe UI Bold";
+  src: url("/fonts/ZegoeUI-UBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Zegoe Caps Bold";
+  src: url("/fonts/ZegoeCapsBold.ttf") format("truetype");
+}
+
+:root {
+  --colour-pink: #ec008c;
+}
+
+html,
+body,
+#root {
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Segoe UI, Trebuchet, Arial, Sans-Serif;
+  font-size: 12px;
+  color: #555;
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+}
+a.link,
+a.link:link {
+  color: var(--colour-pink);
+}
+a:link {
+  cursor: pointer;
+}
+
+a.link:hover,
+a.link:active {
+  color: #b7006d;
+}
+
+.mainContentWrap {
+  max-width: 100%;
+  width: 950px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin: 0;
+  letter-spacing: -3px;
+  max-width: fit-content;
+  letter-spacing: -3px;
+  font-weight: 300;
+  font-size: 39pt;
+  text-align: center;
+  background: linear-gradient(to right, #fe5000, var(--colour-pink), #0093d0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-color 0.5s ease;
+}
+
+h2:hover {
+}
+
+.alignCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.subheader,
+.subheader p {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
