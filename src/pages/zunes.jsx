@@ -16,6 +16,7 @@ function ZuneImage({ src }) {
 
   return (
     <img
+    alt="Zune icon"
       src={`${imageSrc}?${new Date().getTime()}`}
       onError={handleImageError}
     />
@@ -38,7 +39,7 @@ function Zune({ zune }) {
       <h3 className={ZuneStyles.zuneHeadder}>Guides</h3>
       <div>
         {zune.guides.map((guide) => (
-          <a class="link" href={guide.link}>
+          <a class="link" href={guide.link} key={guide.name}>
             {guide.name}
           </a>
         ))}
@@ -47,7 +48,7 @@ function Zune({ zune }) {
       <h3 className={ZuneStyles.zuneHeadder}>parts</h3>
       <div>
         {zune.parts.map((part) => (
-          <a class="link" href={part.link}>
+          <a class="link" href={part.link} key={part.name}>
             {part.name}
           </a>
         ))}

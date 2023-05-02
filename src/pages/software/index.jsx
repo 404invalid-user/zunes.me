@@ -80,7 +80,7 @@ export default function Software() {
                 <li>Broadband Internet connection </li>
               </ul>
               A wi-fi network is necessary for you to wirelessly sync your Zune
-              device to your computer. *The Zune software won't work on versions
+              device to your computer. *The Zune software won&apos;t work on versions
               of Windows earlier than Windows XP SP3. Download Windows XP SP3.
               Zune Software License Terms
               <br />
@@ -100,7 +100,7 @@ export default function Software() {
             <p className={styles.text}>
               Get started for free with the Zune software and set up a Zune
               Music + Video account to enjoy all the amazing Zune software
-              features. Zune software is smart and we're always working to make
+              features. Zune software is smart and we&apos;re always working to make
               it better. To do this, we need to learn a little about how it
               works for you. When you install the Zune software, information
               about your installation experience will be sent to Microsoft,

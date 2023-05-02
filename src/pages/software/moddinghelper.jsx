@@ -78,7 +78,7 @@ export default function ZuneModdingHelper() {
                 <li>1 gigabyte (GB) RAM (32-bit) or 2 GB RAM (64-bit)</li>
                 <li>Broadband Internet connection </li>
               </ul>
-              A wi-fi network is necessary for you to download updates and connect to our community servers. *The Zune software won't work on versions
+              A wi-fi network is necessary for you to download updates and connect to our community servers. *The Zune software won&apos;t work on versions
               of Windows earlier than Windows XP SP3. Download Windows XP SP3.
            
               <br />
@@ -95,7 +95,7 @@ export default function ZuneModdingHelper() {
               Note: We are not Microsoft.
             </p>
             <p className={styles.text}>
-            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+            THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
             </p>
           </div>
         </div>

@@ -5,6 +5,8 @@ import Nav from '@/components/nav';
 import Footer from '@/components/footer';
 import styles from '@/styles/Home.module.css';
 
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <>
@@ -74,15 +76,15 @@ export default function Home() {
           >
             get started with zune
           </div>
-          <a className={`${styles.btn} ${styles.first}`} href="/software">
+          <Link className={`${styles.btn} ${styles.first}`} href="/software">
             <span>1</span> Get the Zune software
-          </a>
-          <a className={`${styles.btn}`}>
+          </Link>
+          <Link className={`${styles.btn}`} href="/software/moddinghelper">
             <span>2</span> Get the modding helper
-          </a>
-          <a className={`${styles.btn}`}>
+          </Link>
+          <Link className={`${styles.btn}`} href="/guides/updating-zunes-firmware">
             <span>3</span> Update your Zune 
-          </a>
+          </Link>
         </div>
       </div>
       <Footer />
